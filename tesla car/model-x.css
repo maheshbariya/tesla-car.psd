@@ -1,0 +1,608 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.model-x{
+    background-image: url(./x-img/Model-X-Main.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.search-side ul li a:hover{
+    transition: 0.6s;
+    font-size: 18px;
+}
+.model-x:hover{
+    background: url(./x-img/model-x\ hover.avif);
+    background-size: cover;
+    transition: 4s;
+    background-repeat: no-repeat;
+}
+.list ul li a:hover{
+    color: #222;
+    background-color: rgb(220, 252, 255);
+    border-radius: 5px;
+    transition: 0.8s;
+    padding: 0.2rem 0.7rem;
+}
+.logo:hover{
+    padding: 1rem;
+    transition: 0.8s;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.jsc{
+    justify-content: space-between;
+}
+.logo{
+    width: 15%;
+}
+.logo img{
+    width: 80%;
+    padding: 18px 0 0 0;
+}
+.li{
+    line-height: 60px;
+}
+.list ul li ,.search-side ul li {
+    list-style: none;
+}
+.list ul li a{
+    text-decoration: none;
+    color: #303030;
+    font-weight: 600;
+}
+.search-side ul li a ,.search-side ul li{
+    text-decoration: none;
+    color: #303030  ;
+    font-weight: 600;
+}
+.list ul li {
+    padding: 0 10px;
+}
+.list ul li{
+    padding:  0 25px;
+}
+.search-side ul li{
+    padding: 0 30px 0 10px;
+}
+.head h1{
+    text-align: center;
+    font-size: 45px;
+    padding: 9rem 0 0.5rem 0;
+    font-weight: 400;
+}
+.head h4{
+    text-align: center;
+    font-weight: 300;
+}
+.btn , .btn2{
+    margin: auto;
+}
+.btn input{
+    color: #fff;
+    background-color: transparent;
+    border: 4px solid #fff;
+    padding: 5px 50px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.button{
+    padding: 25rem 0 5rem 8rem ;
+}
+.btn input:hover{
+    background-color: #fff;
+    color: #303030;
+    transition: all .8s;
+
+}
+.navbar{
+    position: fixed;
+}
+.data h1{
+    color: #fff;
+    font-size: 2rem;
+}
+.data p{
+    color: #fff;
+}
+.data{
+    padding: 0 3rem;
+}
+/* section-two */
+.sec-two{
+    background-color: black;
+}
+.h1 h1{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+}
+.sec-two{
+    box-shadow: 0rem -8rem  8rem  black;
+}
+/* section-three */
+.interior{
+    background-image: url(./s-img/Model-S-Interior.webp);
+    background-size: cover;
+    min-height: 100vh;
+}
+.future{
+    background-color: black;
+}
+.vedio video{
+    width: 100%;
+}
+/* Cinematic Experience  */
+.Cinematic-Experience{
+    background-color: black;
+}
+.h3 h1{
+    font-size: 2rem;
+    color: #fff;
+    padding: 0 0 1rem 0;
+}
+.h3 p{
+    color: #fff;
+    font-size: .9rem;
+    width: 50%;
+}
+.h3{
+    padding: 1rem 0rem 2rem 30rem;
+}
+.h3 ul li a i{
+    color: #fff;
+    padding: 1rem 0 1rem 0;
+}
+/* all-will-drive */
+.all-will-drive{
+    background-image: url(./x-img/Model-X-gray.jpeg);
+    background-size: cover;
+}
+.icn i{
+    color: #fff;
+    font-size: 30px;
+}
+.icn{
+    text-align: center; 
+}
+ .but-1 input{
+    color: #303030;
+    background-color: rgb(226, 224, 224);
+    border: none;
+    padding: 5px 50px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+.but-1{
+    padding: .5rem 0 0 0;
+}
+.col-80{
+    width: 60%;
+    margin: 0 auto;
+}
+.cart-1 h1{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+.cart{
+    padding: 20rem 0 2rem 0;
+}
+.cart-1 p{
+    color: #fff;
+    text-align: center;
+    padding: 5px 0 0 14px;
+}
+.side-2{
+    width: 80%;
+}
+.no-1 h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+.no-1  h1{
+    font-size: 35px;
+    font-weight: 550;
+    padding: 1rem 0;
+}
+.h2 h1{
+    font-size: 20px;
+    font-weight: 400;
+}
+.h2 h1 span{
+    border: 2px solid;
+    padding: 4px 11px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+.h2 h1 span:hover{
+    background-color: #303030;
+    color: #fff;
+    transition: all .8s;
+}
+.but-2 input{
+    color: #303030;
+    background-color: transparent;
+    border: 2px solid #303030;
+    padding: 5px 50px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+.but-2{
+    padding: 0.5rem 0 0 2rem;
+}
+.but-2 input:hover{
+    background-color: #303030;
+    color: #fff;
+    transition: all .8s;
+}
+.no-1{
+    padding: 3rem 0;
+}
+.right-side{
+    padding: 5rem 0rem 0 11rem;
+}
+.right-side p{
+    font-size: 17px;
+    font-weight: 300;
+}
+/* Electric Powertrain */
+.Electric-Powertrain{
+    background-color: rgb(238, 238, 238);
+}
+.h4{
+    width: 80%;
+    margin: 0 auto;
+}
+.h4 h1{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 9rem 0 2rem 2rem;
+}
+.h4 p{
+    width: 70%;
+    padding: 0 0 4rem 2rem;
+}
+.img-0 img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* Beyond Ludicrous */
+.Beyond-Ludicrous{
+    background-image: url(./x-img/Model-X-Exterior-Hero.jpeg);
+    background-size: 100%;
+    height: 30rem;
+}
+.lover-side{
+    background-color: black;
+}
+.side-4{
+    width: 80%;
+}
+.no-5 h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.no-5  h1{
+    font-size: 28px;
+    font-weight: 550;
+    padding: 1rem 0;
+    color: #fff;
+}
+.h2-2 h1{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.h2-2 h1 span{
+    border: 2px solid;
+    padding: 4px 11px;
+    font-size: 20px;
+    border-radius: 100%;
+    color: #fff;
+}
+.h2-2 h1 span:hover{
+    background-color: #303030;
+    color:  #fff;
+    transition: all .8s;
+}
+.but2-2 input{
+    /* color: #303030; */
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 5px 60px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+}
+.but2-2{
+    padding: 0.5rem 0 0 2rem;
+}
+.but2-2 input:hover{
+    background-color: #fff;;
+    color: #303030;
+    font-weight: 700;
+    transition: all .8s;
+}
+.no-5{
+    padding: 3rem 0;
+}
+.right2-side{
+    padding: 5rem 0rem 0 11rem;
+}
+.right2-side p{
+    font-size: 17px;
+    font-weight: 300;
+    color: #fff;
+}
+.but1-1 input{
+    color: #fff;
+    background-color: #303030;
+    border: none;
+    padding: 5px 50px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+.but1-1{
+    padding: .5rem 0 0 0;
+}
+.but1-1 input:hover{
+    color: #fff;
+    background-color: rgb(163, 158, 158);
+    transition: all .8s;
+}
+/* last-video */
+.range-vedio{
+    background-color: #fff;
+}
+.col-70{
+    width: 70%;
+}
+.col-30{
+    width: 30%;
+}
+.img img{
+    width: 100%;
+}
+.img{
+    padding: 0rem 0;
+}
+.text-side p{
+    padding: 0rem 0 0 3rem ;
+}
+.text-side h1{
+    font-size: 40px;
+    font-weight: 500;
+    padding: 1rem 0rem 1rem 3rem;
+}
+.text-side h4{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 4rem 0rem 0rem 3rem;
+}
+.learn-more h1{
+    font-size: 15px;
+    padding: 0;
+}
+.learn-more h1 span{
+    border: 2px solid;
+    padding: 4px 11px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+.learn-more h1 span:hover{
+    background-color: #303030;
+    color: #fff;
+    transition: all .8s;
+}
+/* .learn-more input{
+    color: #303030;
+    border: 2px solid #303030;
+    padding: 0px 50px;
+    background-color: transparent;
+    font-size: 20px;
+}
+.learn-more input:hover{
+    background-color: #303030;
+    color: #fff;
+    transition: all .8s;
+
+} */
+.learn-more{
+    padding: 5rem 0 0 0 ;
+}
+.but-a {
+   padding: 13rem 0rem 1rem 5rem;
+}
+.but-b{
+    padding: 0rem 0rem 1rem 5rem;;
+}
+.but-a input{
+    color: #303030;
+    border: 3px solid #303030;
+    background-color: transparent;
+    font-weight: 700;
+    padding: 0.5rem 8rem 0.5rem 8rem;
+}
+.but-a input:hover{
+    color: #fff;
+    background-color: #303030;
+    transition: 0.8s;
+}
+.but-b input{
+    color: #303030;
+    border: none;
+    font-weight: 600;
+    background-color: rgb(220, 220, 220);
+    padding: 0.5rem 7.3rem 0.5rem 7.3rem;
+}
+.but-b input:hover{
+    color: #303030;
+    background-color: rgb(175, 171, 171);
+    transition: 0.8s;
+}
+/* second-last */
+.specs{
+    background-color: black;
+}
+.col-45{
+    width: 45%;
+}
+.col-50{
+    width: 50%;
+}
+.sec-l h2, .sec-r h2{
+    color: #fff;
+    padding: 1rem 0 0 0;
+    font-weight: 400;
+}
+.sec-l h1{
+    color: #fff;
+    padding: 3rem 0 1rem 0;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.sec-l h1 span,.sec-r h1 span{
+    font-weight: 300;
+}
+.sec-l h4 , .sec-r h4{
+    color: #fff;
+    padding: 0 0 1rem 0;
+    font-weight: 300;
+}
+.sec-l{
+    padding: 0rem 0;
+}
+.black-car img{
+    width: 100%;
+    padding: 2rem 0 0 0;
+}
+.btn-3 input{
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: .4rem 5rem;
+    color: #fff;
+    font-size: 15px;
+}
+.btn-3{
+    padding: 0rem 0 .5rem 0;
+}
+.btn-4 input{
+    background-color: transparent;
+    border: 3px solid #303030;
+    border-radius: 4px;
+    padding: .4rem 4.2rem;
+    color: #fff;
+    font-size: 15px;
+}
+.sec-r{
+    padding: 4rem 0;
+}
+.btn-5 input{
+    background-color: transparent;
+    border: 3px solid #303030;
+    border-radius: 4px;
+    padding: .4rem 4.2rem;
+    color: #fff;
+    font-size: 15px;
+}
+.btn-5{
+    padding: 0.1rem 0 2.5rem 0;
+}
+.btn-6 input{
+    background-color: transparent;
+    border: 3px solid #fff;
+    border-radius: 4px;
+    padding: .4rem 4.2rem;
+    color: #fff;
+    font-size: 15px;
+    margin: 0 auto;
+    display: block;
+}
+.btn-6{padding: 1rem 0;}
+.btn-7{padding: 0rem 0 3rem 0;}
+.btn-7 input{
+    background-color: #303030;
+    border: 3px solid #303030;
+    border-radius: 4px;
+    padding: .4rem 5.8rem;
+    color: #fff;
+    font-size: 15px;
+    margin: 0 auto;
+    display: block;
+}
+.btn-7 input:hover{
+    background-color: #252525;
+    color: #fff;
+    transition: 0.8s;
+}
+.btn-6 input:hover{
+    background-color: #fff;
+    color: #303030;
+    transition: 0.8s;
+}
+/* ENTERIOR */
+.enterior{
+    background-image: url(./img/entirior\ copy.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.back-side{
+    padding: 13rem 0;
+    display: block;
+    padding: 3rem 0 3rem 76rem;
+}
+.back-side h1{
+    padding: 1rem 0 0 0;
+    font-size: 2rem;
+    color: #fff;
+}
+.back-side p{
+    color: #fff;
+    padding: 1rem 0 1rem 0;
+}
+.back-side i{
+    font-size: 40px;
+    color: #fff;
+}
+.back-side p{
+    padding: 2rem 0;
+}
+.last-img img{
+    width: 100%;
+    padding: 10rem 0 1rem 0;
+}
+.col-50{
+    width: 50%;
+}
+.uper-side h1{
+    color: #303030;
+    font-size: 30px;
+    padding: 16rem 0rem 1rem 10rem;
+    text-align: center;
+}
+.last-btn{
+    padding: 0rem 0rem 0rem 20rem;
+}
+.last-p{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem 0 5rem 0;
+}
